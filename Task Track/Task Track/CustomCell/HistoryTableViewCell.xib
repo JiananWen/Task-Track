@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="historycell" rowHeight="65" id="KGk-i7-Jjw" customClass="HistoryTableViewCell" customModule="Task_Track" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="64.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dEV-x7-nAr" userLabel="background">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sep 11 2017" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EaT-UP-vnN">
+                                <rect key="frame" x="42" y="15.5" width="237" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="1se-2K-kEY"/>
+                                    <constraint firstAttribute="width" constant="237" id="ZP0-0T-5YW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9e2-It-nRE">
+                                <rect key="frame" x="0.0" y="5" width="104" height="55"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="9e2-It-nRE" firstAttribute="leading" secondItem="dEV-x7-nAr" secondAttribute="leading" id="2kl-Qw-lyG"/>
+                            <constraint firstAttribute="trailing" secondItem="9e2-It-nRE" secondAttribute="trailing" constant="216" id="9em-iQ-Oh7"/>
+                            <constraint firstAttribute="bottom" secondItem="9e2-It-nRE" secondAttribute="bottom" constant="5" id="Nft-Fm-wwm"/>
+                            <constraint firstItem="EaT-UP-vnN" firstAttribute="centerY" secondItem="dEV-x7-nAr" secondAttribute="centerY" id="Wfe-AF-N8B"/>
+                            <constraint firstItem="EaT-UP-vnN" firstAttribute="centerX" secondItem="dEV-x7-nAr" secondAttribute="centerX" id="Yz1-AF-S64"/>
+                            <constraint firstItem="9e2-It-nRE" firstAttribute="top" secondItem="dEV-x7-nAr" secondAttribute="top" constant="5" id="cHa-Y2-mBz"/>
+                            <constraint firstAttribute="height" constant="65" id="jVc-HX-OZk"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="dEV-x7-nAr" secondAttribute="trailing" id="1Nv-92-X6f"/>
+                    <constraint firstItem="dEV-x7-nAr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="3lo-v3-vaz"/>
+                    <constraint firstAttribute="bottom" secondItem="dEV-x7-nAr" secondAttribute="bottom" id="5rz-Um-RV8"/>
+                    <constraint firstItem="dEV-x7-nAr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="l7U-UJ-1oZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bartrailing" destination="9em-iQ-Oh7" id="E0a-8j-FPZ"/>
+                <outlet property="historyDateLabel" destination="EaT-UP-vnN" id="c7L-Tc-5c0"/>
+                <outlet property="progressview" destination="9e2-It-nRE" id="aAi-V7-z8k"/>
+            </connections>
+            <point key="canvasLocation" x="41" y="99.5"/>
+        </tableViewCell>
+    </objects>
+</document>
