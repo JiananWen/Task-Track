@@ -4,6 +4,6 @@ Record all tasks history, and its completion situation.
 
 It’s easy to use
 
-![image](https://github.com/JiananWen/Task-Track/try1.gif)
+![image](https://github.com/JiananWen/Task-Track/blob/master/try1.gif)
 
 
