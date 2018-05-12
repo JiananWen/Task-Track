@@ -1,10 +1,8 @@
-Developed an application which can record user's task and trace the actual completion situation;
 
-Record all tasks history, and its completion situation.
+Task Track is an IOS app used to post tasks and record task completion.
 
-It’s easy to use
+Task Track is very easy to use, you just need to write your today's target, and when you finished one, you can delete that, and it will show you how much work you have done.
 
-  
-  <div align=center><img width="200" height="400" src="https://github.com/JiananWen/Task-Track/blob/master/Image/try1.gif"/>Let's see how it works</div>
+<div align=center><img width="200" height="400" src="https://github.com/JiananWen/Task-Track/blob/master/Image/try1.gif"/></div>
 
 
