@@ -7,6 +7,6 @@ It’s easy to use
 
   ![image](https://github.com/JiananWen/Task-Track/blob/master/try1.gif)
   
-  <div align=center><img width="150" height="150" src="https://github.com/JiananWen/Task-Track/blob/master/try1.gif"/></div>
+  <div align=center><img width="200" height="400" src="https://github.com/JiananWen/Task-Track/blob/master/try1.gif"/></div>
 
 
