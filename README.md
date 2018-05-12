@@ -5,6 +5,6 @@ Record all tasks history, and its completion situation.
 It’s easy to use
 
   
-  <div align=center><img width="200" height="400" src="https://github.com/JiananWen/Task-Track/blob/master/Image/try1.gif"/></div>
+  <div align=center><img width="200" height="400" src="https://github.com/JiananWen/Task-Track/blob/master/Image/try1.gif"/>Let's see how it works</div>
 
 
