@@ -16,6 +16,7 @@ In the history, you can check the general situation through different collors. r
 
 <div align=center><img width="200" height="400" src="https://github.com/JiananWen/Task-Track/blob/master/Image/Firebase.gif"/></div> 
 
+
 Also used Google Firebase Authentication to create users and verify users.
 
 ### CocoaPods
