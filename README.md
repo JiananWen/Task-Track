@@ -10,14 +10,12 @@ Task Track is very easy to use, you just need to write your today's target, and 
 
 ### Google Firebase
 
-<div align=left><img width="200" height="400" src="https://github.com/JiananWen/Task-Track/blob/master/Image/Firebase.gif"/></div> Used Google Firebase to store all user information and tasks detail. You can check in "History" tab. 
+<div align=left><img width="200" height="400" src="https://github.com/JiananWen/Task-Track/blob/master/Image/Firebase.gif"/></div> 
 
-In the history, you can check the general situation through different collors. red means that you finished less than 30%, yellow means that you finished 30% ~ 70%, green means you finished greater than 70%. 
+Used Google Firebase to store all user information and tasks detail. You can check in "History" tab. 
 
+<div align = right>In the history, you can check the general situation through different collors. red means that you finished less than 30%, yellow means that you finished 30% ~ 70%, green means you finished greater than 70%. </div>
 
-<div style="float: right">
-    ![Replace this with your image](http://placehold.it/85x85 "Title")
-</div>
 
 
 
