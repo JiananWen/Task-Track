@@ -1,13 +1,6 @@
-
-Task Track uses Google Firebase to store all user information and tasks detail. You can check in "History" tab. 
-
-Task Track uses Google Firebase Authentication to create users and verify users.
-
-Used three CocoaPods to embellish UI: UICircularProgressRing, SVProgressHUD, ChameleonFramework
-
 # Task Track
 
-An very convenient IOS app used to post tasks and record task completion.
+A very convenient IOS app used to post tasks and record task completion.
 
 Task Track is very easy to use, you just need to write your today's target, and when you finished one, you can delete that, and it will show you how much work you have done. When today ends, Task Track will give you an empty UI to write your goals.
 
