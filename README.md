@@ -15,6 +15,11 @@ Task Track is very easy to use, you just need to write your today's target, and 
 In the history, you can check the general situation through different collors. red means that you finished less than 30%, yellow means that you finished 30% ~ 70%, green means you finished greater than 70%. 
 
 
+<div style="float: right">
+    ![Replace this with your image](http://placehold.it/85x85 "Title")
+</div>
+
+
 
 
 
